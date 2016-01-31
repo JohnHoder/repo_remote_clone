@@ -1,3 +1,10 @@
+#!/bin/bash     
+#title           :repo_remote_clone.sh
+#description     :This script will make copies of repos from a remote account to your github account
+#author		 :Jan Hodermarsky
+#date            :December 2015
+#==============================================================================
+
 Username="GithubUsername"
 Password="GithubPassword"
 NewBranch="NewBranchName"
