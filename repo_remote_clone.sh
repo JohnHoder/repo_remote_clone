@@ -11,7 +11,7 @@ NewBranch="NewBranchName"
 NewCommitMessage="Initial commit (Cloned)"
 
 Account="GithubAccountToCloneFrom";
-Url="https://api.github.com/users/$Account/repos?per_page=999";
+Url="https://api.github.com/users/$Account/repos?per_page=100&direction=asc";
 Dir="localDirName";
 RepoVar="";
 rm -rf $Dir;
