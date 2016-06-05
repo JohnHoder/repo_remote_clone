@@ -22,7 +22,7 @@ i=0;
 
 wget $Url -O - 2> /dev/null | grep -Po "$Account/[^/]+(?=/forks)" | while read x;
 do 
-	echo "$x";
+	#echo "$x";
 	for w in $(echo "$x" | tr "/" " " | cut -d " " -f 2);
 		do
 			echo $w;
